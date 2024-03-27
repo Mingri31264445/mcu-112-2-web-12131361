@@ -2,10 +2,9 @@ header {
   text-align: center;
 }
 .card {
-  border-style: solid;
-  border-color: #999;
-  border-width: 1px;
+  border: solid 1px #999;
   width: 250px;
+  border-radius: 8px;
 }
 input[type="text"] {
   width: 250px;
