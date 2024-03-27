@@ -10,6 +10,10 @@ header {
   width: 250px;
   border-radius: 8px;
 }
+section.body{
+    margin: 0 auto;
+    width: 90%;
+}
 nav{
     margin-bottom: 10px;
 }
