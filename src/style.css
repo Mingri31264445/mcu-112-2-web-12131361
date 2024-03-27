@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 header {
   text-align: center;
 }
@@ -6,6 +10,9 @@ header {
   width: 250px;
   border-radius: 8px;
 }
+nav{
+    margin-bottom: 10px;
+}
 input[type="text"] {
   width: 250px;
   height: 25px;
@@ -13,10 +20,14 @@ input[type="text"] {
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 10px 0;
 }
 th,
 td {
   height: 30px;
+}
+tr,td{
+    padding: 8px;
 }
 .id {
   text-align: center;
@@ -29,4 +40,7 @@ td {
 .price {
   text-align: right;
   width: 100px;
+}
+footer{
+    margin-top: 20px;
 }
