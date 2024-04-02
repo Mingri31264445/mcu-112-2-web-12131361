@@ -6,7 +6,15 @@ header {
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
 }
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .card {
+  padding: 10px;
   border: solid 1px #999;
   width: 250px;
   border-radius: 8px;
@@ -28,6 +36,8 @@ a:active {
 ul {
   padding-left: 0;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 ul > li {
   border: solid 1px #ccc;
@@ -54,7 +64,7 @@ th,
 td {
   height: 30px;
 }
-tr:hover{
+tr:hover {
   background-color: yellow;
 }
 tr,
