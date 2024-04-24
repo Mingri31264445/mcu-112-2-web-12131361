@@ -9,7 +9,6 @@ import { ProductCardComponent } from './product-card/product-card.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'shopping-cart';
   productName = '書籍A';
   authors = '作者甲、作者乙、作者丙';
   company = '博碩文化';
